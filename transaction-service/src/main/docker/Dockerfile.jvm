@@ -1,0 +1,9 @@
+FROM eclipse-temurin:17-jre-alpine
+WORKDIR /deployments
+COPY build/quarkus-app/lib/ ./lib/
+COPY build/quarkus-app/*.jar ./
+COPY build/quarkus-app/app/ ./app/
+COPY build/quarkus-app/quarkus/ ./quarkus/
+EXPOSE 8080
+USER 1001
+ENTRYPOINT ["java", "-jar", "quarkus-run.jar"]

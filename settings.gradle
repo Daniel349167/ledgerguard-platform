@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'ledgerguard-platform'
+include 'contracts', 'transaction-service', 'fraud-service'
