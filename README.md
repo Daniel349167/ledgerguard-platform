@@ -1,5 +1,7 @@
 # LedgerGuard
 
+[![CI](https://github.com/Daniel349167/ledgerguard-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/Daniel349167/ledgerguard-platform/actions/workflows/ci.yml)
+
 Event-driven payment authorization and explainable fraud screening built with
 Java 17, Quarkus, Kafka-compatible streaming, PostgreSQL and Docker.
 
